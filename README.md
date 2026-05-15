@@ -21,14 +21,14 @@ Cada Pokémon deberá mostrarse en una tarjeta o elemento de lista con, al menos
 ● Imagen del Pokémon. <br>
 ● Número o ID del Pokémon. 
 
-3. Consulta a la API
+2. Consulta a la API
    
 La aplicación deberá conectarse a la API de Pokémon para obtener los datos. <br>
 Se podrá utilizar el siguiente endpoint: <br>
 https://pokeapi.co/api/v2/pokemon?limit=20 <br>
 La aplicación deberá cargar al menos los primeros 20 Pokémon.
 
-5. Pantalla de detalle
+3. Pantalla de detalle
 
 Al pulsar sobre un Pokémon del listado, se deberá abrir una pantalla de detalle. <br>
 La pantalla de detalle deberá mostrar, como mínimo: <br>
@@ -40,14 +40,14 @@ La pantalla de detalle deberá mostrar, como mínimo: <br>
 ● Tipo o tipos. <br>
 ● Habilidades. <br>
 
-7. Buscador 
+4. Buscador 
    
 La aplicación deberá incluir un campo de búsqueda para localizar un Pokémon por nombre. <br>
 El usuario podrá escribir el nombre de un Pokémon y la app deberá consultar la API para mostrar su información. <br>
 Ejemplo: <br>
 https://pokeapi.co/api/v2/pokemon/charmander 
 
-9. Gestión de errores
+5. Gestión de errores
 
 La aplicación deberá controlar posibles errores, por ejemplo: <br>
 ● Pokémon no encontrado. <br>
@@ -56,12 +56,12 @@ La aplicación deberá controlar posibles errores, por ejemplo: <br>
 ● Campo de búsqueda vacío. <br>
 En estos casos, se deberá mostrar un mensaje claro al usuario. 
 
-11. Indicador de carga
+6. Indicador de carga
 
 Mientras la aplicación espera la respuesta de la API, deberá mostrarse un indicador de carga. <br>
 Se puede utilizar el componente ActivityIndicator de React Native. 
 
-Componentes mínimos 
+7. Componentes mínimos 
 
 La aplicación deberá estar organizada, como mínimo, en los siguientes componentes: <br>
 ● App <br>
@@ -83,7 +83,7 @@ src/ <br>
 │ └── pokemonService.js <br>
 └── App.jsx 
 
-Requisitos técnicos 
+8. Requisitos técnicos 
 
 La aplicación deberá cumplir los siguientes requisitos: <br>
 ● Estar desarrollada con React Native. <br>
