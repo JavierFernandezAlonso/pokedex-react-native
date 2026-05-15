@@ -113,5 +113,6 @@ Se valorará positivamente añadir alguna de las siguientes mejoras: <br>
 
 ## Tecnologías previstas 📚
 - Visual Studio Code
+- React Native
 - Expo Go
   
