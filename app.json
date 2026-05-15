@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "name": "pokedex-react",
+    "slug": "pokedex-react",
+    "version": "1.0.0",
+    "plugins": ["expo-splash-screen"],
+    "android": {},
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
