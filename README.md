@@ -115,5 +115,3 @@ Se valorará positivamente añadir alguna de las siguientes mejoras: <br>
 - Visual Studio Code
 - React Native
 - Expo Go
-  
->>>>>>> 515ecffe657addf539d8b00f63c924d250ebcc6c
